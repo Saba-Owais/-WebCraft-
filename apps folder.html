@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang>
+<head>
+    
+    <title>My App Folders</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background:  rgb(169, 169, 169);
+            text-align: center;
+        }
+
+        .navbar {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+
+        .main-box {
+            max-width: 800px;
+            margin: 0 auto;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            padding: 20px;
+            background-color: #fff;      
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            max-width: 800px; /* Adjust the max-width as per your design */
+            margin: 0 auto;
+            max-height: 420px;
+            overflow-y: scroll; /* Adding scrollbar */
+            
+        }
+
+        .box {
+        width: 120px;
+        height: 120px; /* Equal width and height to create a perfect circle */
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 50%; /* Circular shape for the app boxes */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+    }
+
+
+        .box img {
+            width: 70px;
+            height: 70px;
+            border-radius: 70%; /* Circular shape for the app icons */
+        }
+
+        .box p {
+            margin-top: 5px;
+        }
+
+        /* Media query for mobile view */
+        @media (max-width: 600px) {
+            .container {
+                max-height: none;
+                overflow-y: initial;
+            }
+        }
+        a:hover {
+             background: rgba(153, 205, 50, 0.637);
+             color: red;
+        }   
+    </style>
+
+<body>
+    <h1>My App Folders</h1>
+    <div class="container">
+        <div class="box">
+            <a href="Apps/YouTube">
+                <img src="IMAGES/image-007.png" alt="YouTube">
+                <p>YouTube</p>
+            </a>
+        </div>
+        <div class="box">
+            <a href="Apps/Gallery">
+                <img src="IMAGES/image-007.jpeg" alt="Gallery">
+                <p>Gallery</p>
+            </a>
+        </div>
+        <div class="box">
+            <a href="Apps/Camera">
+                <img src="IMAGES/image-008.png" alt="Camera">
+                <p>Camera</p>
+            </a>
+        </div>
+        <div class="box">
+            <a href="Apps/Instagram">
+                <img src="IMAGES/image-009.png" alt="Instagram">
+                <p>Instagram</p>
+            </a>
+        </div>
+        <div class="box">
+            <a href="Apps/Contacts">
+                <img src="IMAGES/image-100.png" alt="Contacts">
+                <p>Contacts</p>
+            </a>
+        </div>
+        <div class="box">
+            <a href="Apps/Facebook">
+                <img src="IMAGES/image-200.jpeg" alt="Facebook">
+                <p>Facebook</p>
+            </a>
+        </div>
+
+        <div class="box">
+            <a href="Apps/file manager">
+                <img src="IMAGES/image-300.jpeg">
+                <p>file manager</p>
+            </a>
+        </div>
+        <div class="box">
+            <a href="Apps/calender">
+                <img src="IMAGES/image-400.png">
+                <p>calender</p>
+            </a>
+        </div>
+        <div class="box">
+            <a href="Apps/whatsapp">
+                <img src="IMAGES/image-500.jpeg">
+                <p>whatsapp</p>
+            </a>
+        </div>
+        <div class="box">
+            <a href="Apps/settings">
+                <img src="IMAGES/image-600.jpeg">
+                <p>settings</p>
+            </a>
+        </div>
+        <div class="box">
+            <a href="Apps/chrome">
+                <img src="IMAGES/image-700.jpeg">
+                <p>chrome</p>
+            </a>
+        </div>
+        <div class="box">
+            <a href="Apps/gmail">
+                <img src="IMAGES/image-800.png">
+                <p>Gmail</p>
+            </a>
+        </div>
+        <div class="box">
+            <a href="Apps/weather">
+                <img src="IMAGES/image-900.png">
+                <p>weather</p>
+            </a>
+        </div>
+    
+    
+    
+</body>
+</html>
